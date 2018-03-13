@@ -1,1 +1,1 @@
-# OpenVibe-to-Arduino-VRPN
+# OpenVibe-to-Arduino-VRPNH
