@@ -1,0 +1,224 @@
+﻿Build started 15/03/2017 16:04:48.
+     1>Project "C:\Users\Admin\Documents\Mestrado_IINELS\Arduino\CAMILE\vrpn\vrpn.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (.\pc_win32/Debug\) contains files shared from another project (make_vrpn_libs_build.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Include" /I../dtrack /Iquat /I../isense /I../Dtrack /I../libfreespace/include /I"C:\Program Files\National Instruments\NI-DAQ\DAQmx ANSI C Dev\include" /I"C:\Program Files\National Instruments\NI-DAQ\Include" /IC:\sdk\cpp /I"C:\Program Files\boost\boost_1_34_1" /I./submodules/hidapi/hidapi /I"C:\Program Files\libusb-1.0\libusb" /Zi /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_DEPRECATE /D VRPNDLL_NOEXPORTS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\pc_win32/Debug/" /Fd".\pc_win32/Debug/vc120.pdb" /FR".\pc_win32/Debug\\" /Gd /TP /analyze- /errorReport:prompt vrpn_3DConnexion.C vrpn_3DMicroscribe.C vrpn_3Space.C vrpn_5DT16.C vrpn_ADBox.C vrpn_Analog.C vrpn_Analog_5dt.C vrpn_Analog_5dtUSB.C vrpn_Analog_Output.C vrpn_Analog_Radamec_SPI.C vrpn_Analog_USDigital_A2.C vrpn_Auxiliary_Logger.C vrpn_BaseClass.C vrpn_Button.C vrpn_Button_NI_DIO24.C vrpn_Button_USB.cpp vrpn_CerealBox.C vrpn_Connection.C vrpn_Dial.C vrpn_DirectXFFJoystick.C vrpn_DirectXRumblePad.C vrpn_DreamCheeky.C vrpn_Dyna.C vrpn_Event.C vrpn_Event_Analog.C vrpn_Event_Mouse.C vrpn_FileConnection.C vrpn_FileController.C vrpn_Flock.C vrpn_Flock_Parallel.C vrpn_ForceDevice.C vrpn_ForceDeviceServer.C vrpn_Forwarder.C vrpn_ForwarderController.C vrpn_Freespace.C vrpn_FunctionGenerator.C vrpn_GlobalHapticsOrb.C vrpn_HumanInterface.C vrpn_Imager.C vrpn_Imager_Stream_Buffer.C vrpn_ImmersionBox.C vrpn_JoyFly.C vrpn_Joylin.C vrpn_Joywin32.C vrpn_Keyboard.C vrpn_LUDL.C vrpn_LamportClock.C vrpn_Local_HIDAPI.C vrpn_Magellan.C vrpn_Mouse.C vrpn_Mutex.C vrpn_NationalInstruments.C vrpn_Nidaq.C vrpn_Poser.C vrpn_Poser_Analog.C vrpn_Poser_Tek4662.C vrpn_RedundantTransmission.C vrpn_Serial.C vrpn_Shared.C vrpn_SharedObject.C vrpn_Sound.C vrpn_Spaceball.C vrpn_Text.C vrpn_Tng3.C vrpn_Tracker.C vrpn_Tracker_3DMouse.C vrpn_Tracker_AnalogFly.C vrpn_Tracker_ButtonFly.C vrpn_Tracker_Crossbow.C vrpn_Tracker_DTrack.C vrpn_Tracker_Fastrak.C vrpn_Tracker_GPS.C vrpn_Tracker_GameTrak.C vrpn_Tracker_Isotrak.C vrpn_Tracker_JsonNet.C vrpn_Tracker_Liberty.C vrpn_Tracker_MotionNode.C vrpn_Tracker_NDI_Polaris.C vrpn_Tracker_NovintFalcon.C vrpn_Tracker_PhaseSpace.C vrpn_Tracker_RazerHydra.C vrpn_Tracker_SpacePoint.C vrpn_Tracker_TrivisioColibri.C vrpn_Tracker_ViewPoint.C vrpn_Tracker_WiimoteHead.C vrpn_Tracker_isense.C vrpn_Tracker_zSight.C vrpn_UNC_Joystick.C vrpn_VPJoystick.C vrpn_Wanda.C vrpn_WiiMote.C vrpn_XInputGamepad.C vrpn_Xkeys.C vrpn_Zaber.C vrpn_inertiamouse.C vrpn_nikon_controls.C vrpn_raw_sgibox.C vrpn_sgibox.C
+         vrpn_3DConnexion.C
+         vrpn_3DMicroscribe.C
+         vrpn_3Space.C
+         vrpn_5DT16.C
+         vrpn_ADBox.C
+         vrpn_Analog.C
+         vrpn_Analog_5dt.C
+         vrpn_Analog_5dtUSB.C
+         vrpn_Analog_Output.C
+         vrpn_Analog_Radamec_SPI.C
+         vrpn_Analog_USDigital_A2.C
+         vrpn_Auxiliary_Logger.C
+         vrpn_BaseClass.C
+         vrpn_Button.C
+         vrpn_Button_NI_DIO24.C
+         vrpn_Button_USB.cpp
+         vrpn_CerealBox.C
+         vrpn_Connection.C
+         vrpn_Dial.C
+         vrpn_DirectXFFJoystick.C
+         Generating Code...
+         Compiling...
+         vrpn_DirectXRumblePad.C
+         vrpn_DreamCheeky.C
+         vrpn_Dyna.C
+         vrpn_Event.C
+         vrpn_Event_Analog.C
+         vrpn_Event_Mouse.C
+         vrpn_FileConnection.C
+         vrpn_FileController.C
+         vrpn_Flock.C
+         vrpn_Flock_Parallel.C
+         vrpn_ForceDevice.C
+         vrpn_ForceDeviceServer.C
+         vrpn_Forwarder.C
+         vrpn_ForwarderController.C
+         vrpn_Freespace.C
+         vrpn_FunctionGenerator.C
+         vrpn_GlobalHapticsOrb.C
+         vrpn_HumanInterface.C
+         vrpn_Imager.C
+         vrpn_Imager_Stream_Buffer.C
+         Generating Code...
+         Compiling...
+         vrpn_ImmersionBox.C
+         vrpn_JoyFly.C
+         vrpn_Joylin.C
+         vrpn_Joywin32.C
+         vrpn_Keyboard.C
+         vrpn_LUDL.C
+         vrpn_LamportClock.C
+         vrpn_Local_HIDAPI.C
+         vrpn_Magellan.C
+         vrpn_Mouse.C
+         vrpn_Mutex.C
+         vrpn_NationalInstruments.C
+         vrpn_Nidaq.C
+         vrpn_Poser.C
+         vrpn_Poser_Analog.C
+         vrpn_Poser_Tek4662.C
+         vrpn_RedundantTransmission.C
+         vrpn_Serial.C
+         vrpn_Shared.C
+         vrpn_SharedObject.C
+         Generating Code...
+         Compiling...
+         vrpn_Sound.C
+         vrpn_Spaceball.C
+         vrpn_Text.C
+         vrpn_Tng3.C
+         vrpn_Tracker.C
+         vrpn_Tracker_3DMouse.C
+         vrpn_Tracker_AnalogFly.C
+         vrpn_Tracker_ButtonFly.C
+         vrpn_Tracker_Crossbow.C
+         vrpn_Tracker_DTrack.C
+         vrpn_Tracker_Fastrak.C
+         vrpn_Tracker_GPS.C
+         vrpn_Tracker_GameTrak.C
+         vrpn_Tracker_Isotrak.C
+         vrpn_Tracker_JsonNet.C
+         vrpn_Tracker_Liberty.C
+         vrpn_Tracker_MotionNode.C
+         vrpn_Tracker_NDI_Polaris.C
+         vrpn_Tracker_NovintFalcon.C
+         vrpn_Tracker_PhaseSpace.C
+         Generating Code...
+         Compiling...
+         vrpn_Tracker_RazerHydra.C
+         vrpn_Tracker_SpacePoint.C
+         vrpn_Tracker_TrivisioColibri.C
+         vrpn_Tracker_ViewPoint.C
+         vrpn_Tracker_WiimoteHead.C
+         vrpn_Tracker_isense.C
+         vrpn_Tracker_zSight.C
+         vrpn_UNC_Joystick.C
+         vrpn_VPJoystick.C
+         vrpn_Wanda.C
+         vrpn_WiiMote.C
+         vrpn_XInputGamepad.C
+         vrpn_Xkeys.C
+         vrpn_Zaber.C
+         vrpn_inertiamouse.C
+         vrpn_nikon_controls.C
+         vrpn_raw_sgibox.C
+         vrpn_sgibox.C
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:".\pc_win32/Debug\vrpn.lib" /NOLOGO .\pc_win32/Debug/vrpn_3DConnexion.obj
+         .\pc_win32/Debug/vrpn_3DMicroscribe.obj
+         .\pc_win32/Debug/vrpn_3Space.obj
+         .\pc_win32/Debug/vrpn_5DT16.obj
+         .\pc_win32/Debug/vrpn_ADBox.obj
+         .\pc_win32/Debug/vrpn_Analog.obj
+         .\pc_win32/Debug/vrpn_Analog_5dt.obj
+         .\pc_win32/Debug/vrpn_Analog_5dtUSB.obj
+         .\pc_win32/Debug/vrpn_Analog_Output.obj
+         .\pc_win32/Debug/vrpn_Analog_Radamec_SPI.obj
+         .\pc_win32/Debug/vrpn_Analog_USDigital_A2.obj
+         .\pc_win32/Debug/vrpn_Auxiliary_Logger.obj
+         .\pc_win32/Debug/vrpn_BaseClass.obj
+         .\pc_win32/Debug/vrpn_Button.obj
+         .\pc_win32/Debug/vrpn_Button_NI_DIO24.obj
+         .\pc_win32/Debug/vrpn_Button_USB.obj
+         .\pc_win32/Debug/vrpn_CerealBox.obj
+         .\pc_win32/Debug/vrpn_Connection.obj
+         .\pc_win32/Debug/vrpn_Dial.obj
+         .\pc_win32/Debug/vrpn_DirectXFFJoystick.obj
+         .\pc_win32/Debug/vrpn_DirectXRumblePad.obj
+         .\pc_win32/Debug/vrpn_DreamCheeky.obj
+         .\pc_win32/Debug/vrpn_Dyna.obj
+         .\pc_win32/Debug/vrpn_Event.obj
+         .\pc_win32/Debug/vrpn_Event_Analog.obj
+         .\pc_win32/Debug/vrpn_Event_Mouse.obj
+         .\pc_win32/Debug/vrpn_FileConnection.obj
+         .\pc_win32/Debug/vrpn_FileController.obj
+         .\pc_win32/Debug/vrpn_Flock.obj
+         .\pc_win32/Debug/vrpn_Flock_Parallel.obj
+         .\pc_win32/Debug/vrpn_ForceDevice.obj
+         .\pc_win32/Debug/vrpn_ForceDeviceServer.obj
+         .\pc_win32/Debug/vrpn_Forwarder.obj
+         .\pc_win32/Debug/vrpn_ForwarderController.obj
+         .\pc_win32/Debug/vrpn_Freespace.obj
+         .\pc_win32/Debug/vrpn_FunctionGenerator.obj
+         .\pc_win32/Debug/vrpn_GlobalHapticsOrb.obj
+         .\pc_win32/Debug/vrpn_HumanInterface.obj
+         .\pc_win32/Debug/vrpn_Imager.obj
+         .\pc_win32/Debug/vrpn_Imager_Stream_Buffer.obj
+         .\pc_win32/Debug/vrpn_ImmersionBox.obj
+         .\pc_win32/Debug/vrpn_inertiamouse.obj
+         .\pc_win32/Debug/vrpn_JoyFly.obj
+         .\pc_win32/Debug/vrpn_Joylin.obj
+         .\pc_win32/Debug/vrpn_Joywin32.obj
+         .\pc_win32/Debug/vrpn_Keyboard.obj
+         .\pc_win32/Debug/vrpn_LamportClock.obj
+         .\pc_win32/Debug/vrpn_Local_HIDAPI.obj
+         .\pc_win32/Debug/vrpn_LUDL.obj
+         .\pc_win32/Debug/vrpn_Magellan.obj
+         .\pc_win32/Debug/vrpn_Mouse.obj
+         .\pc_win32/Debug/vrpn_Mutex.obj
+         .\pc_win32/Debug/vrpn_NationalInstruments.obj
+         .\pc_win32/Debug/vrpn_Nidaq.obj
+         .\pc_win32/Debug/vrpn_nikon_controls.obj
+         .\pc_win32/Debug/vrpn_Poser.obj
+         .\pc_win32/Debug/vrpn_Poser_Analog.obj
+         .\pc_win32/Debug/vrpn_Poser_Tek4662.obj
+         .\pc_win32/Debug/vrpn_raw_sgibox.obj
+         .\pc_win32/Debug/vrpn_RedundantTransmission.obj
+         .\pc_win32/Debug/vrpn_Serial.obj
+         .\pc_win32/Debug/vrpn_sgibox.obj
+         .\pc_win32/Debug/vrpn_Shared.obj
+         .\pc_win32/Debug/vrpn_SharedObject.obj
+         .\pc_win32/Debug/vrpn_Sound.obj
+         .\pc_win32/Debug/vrpn_Spaceball.obj
+         .\pc_win32/Debug/vrpn_Text.obj
+         .\pc_win32/Debug/vrpn_Tng3.obj
+         .\pc_win32/Debug/vrpn_Tracker.obj
+         .\pc_win32/Debug/vrpn_Tracker_3DMouse.obj
+         .\pc_win32/Debug/vrpn_Tracker_AnalogFly.obj
+         .\pc_win32/Debug/vrpn_Tracker_ButtonFly.obj
+         .\pc_win32/Debug/vrpn_Tracker_Crossbow.obj
+         .\pc_win32/Debug/vrpn_Tracker_DTrack.obj
+         .\pc_win32/Debug/vrpn_Tracker_Fastrak.obj
+         .\pc_win32/Debug/vrpn_Tracker_GameTrak.obj
+         .\pc_win32/Debug/vrpn_Tracker_GPS.obj
+         .\pc_win32/Debug/vrpn_Tracker_isense.obj
+         .\pc_win32/Debug/vrpn_Tracker_Isotrak.obj
+         .\pc_win32/Debug/vrpn_Tracker_JsonNet.obj
+         .\pc_win32/Debug/vrpn_Tracker_Liberty.obj
+         .\pc_win32/Debug/vrpn_Tracker_MotionNode.obj
+         .\pc_win32/Debug/vrpn_Tracker_NDI_Polaris.obj
+         .\pc_win32/Debug/vrpn_Tracker_NovintFalcon.obj
+         .\pc_win32/Debug/vrpn_Tracker_PhaseSpace.obj
+         .\pc_win32/Debug/vrpn_Tracker_RazerHydra.obj
+         .\pc_win32/Debug/vrpn_Tracker_SpacePoint.obj
+         .\pc_win32/Debug/vrpn_Tracker_TrivisioColibri.obj
+         .\pc_win32/Debug/vrpn_Tracker_ViewPoint.obj
+         .\pc_win32/Debug/vrpn_Tracker_WiimoteHead.obj
+         .\pc_win32/Debug/vrpn_Tracker_zSight.obj
+         .\pc_win32/Debug/vrpn_UNC_Joystick.obj
+         .\pc_win32/Debug/vrpn_VPJoystick.obj
+         .\pc_win32/Debug/vrpn_Wanda.obj
+         .\pc_win32/Debug/vrpn_WiiMote.obj
+         .\pc_win32/Debug/vrpn_XInputGamepad.obj
+         .\pc_win32/Debug/vrpn_Xkeys.obj
+         .\pc_win32/Debug/vrpn_Zaber.obj
+     1>vrpn_Tracker_PhaseSpace.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>vrpn_Tracker_MotionNode.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>vrpn_Tracker_isense.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>vrpn_LUDL.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>vrpn_DirectXFFJoystick.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         vrpn.vcxproj -> C:\Users\Admin\Documents\Mestrado_IINELS\Arduino\CAMILE\vrpn\.\pc_win32/Debug\vrpn.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\pc_win32/Debug/vrpn.bsc" .\pc_win32/Debug\vrpn_3DConnexion.sbr .\pc_win32/Debug\vrpn_3DMicroscribe.sbr .\pc_win32/Debug\vrpn_3Space.sbr .\pc_win32/Debug\vrpn_5DT16.sbr .\pc_win32/Debug\vrpn_ADBox.sbr .\pc_win32/Debug\vrpn_Analog.sbr .\pc_win32/Debug\vrpn_Analog_5dt.sbr .\pc_win32/Debug\vrpn_Analog_5dtUSB.sbr .\pc_win32/Debug\vrpn_Analog_Output.sbr .\pc_win32/Debug\vrpn_Analog_Radamec_SPI.sbr .\pc_win32/Debug\vrpn_Analog_USDigital_A2.sbr .\pc_win32/Debug\vrpn_Auxiliary_Logger.sbr .\pc_win32/Debug\vrpn_BaseClass.sbr .\pc_win32/Debug\vrpn_Button.sbr .\pc_win32/Debug\vrpn_Button_NI_DIO24.sbr .\pc_win32/Debug\vrpn_Button_USB.sbr .\pc_win32/Debug\vrpn_CerealBox.sbr .\pc_win32/Debug\vrpn_Connection.sbr .\pc_win32/Debug\vrpn_Dial.sbr .\pc_win32/Debug\vrpn_DirectXFFJoystick.sbr .\pc_win32/Debug\vrpn_DirectXRumblePad.sbr .\pc_win32/Debug\vrpn_DreamCheeky.sbr .\pc_win32/Debug\vrpn_Dyna.sbr .\pc_win32/Debug\vrpn_Event.sbr .\pc_win32/Debug\vrpn_Event_Analog.sbr .\pc_win32/Debug\vrpn_Event_Mouse.sbr .\pc_win32/Debug\vrpn_FileConnection.sbr .\pc_win32/Debug\vrpn_FileController.sbr .\pc_win32/Debug\vrpn_Flock.sbr .\pc_win32/Debug\vrpn_Flock_Parallel.sbr .\pc_win32/Debug\vrpn_ForceDevice.sbr .\pc_win32/Debug\vrpn_ForceDeviceServer.sbr .\pc_win32/Debug\vrpn_Forwarder.sbr .\pc_win32/Debug\vrpn_ForwarderController.sbr .\pc_win32/Debug\vrpn_Freespace.sbr .\pc_win32/Debug\vrpn_FunctionGenerator.sbr .\pc_win32/Debug\vrpn_GlobalHapticsOrb.sbr .\pc_win32/Debug\vrpn_HumanInterface.sbr .\pc_win32/Debug\vrpn_Imager.sbr .\pc_win32/Debug\vrpn_Imager_Stream_Buffer.sbr .\pc_win32/Debug\vrpn_ImmersionBox.sbr .\pc_win32/Debug\vrpn_inertiamouse.sbr .\pc_win32/Debug\vrpn_JoyFly.sbr .\pc_win32/Debug\vrpn_Joylin.sbr .\pc_win32/Debug\vrpn_Joywin32.sbr .\pc_win32/Debug\vrpn_Keyboard.sbr .\pc_win32/Debug\vrpn_LamportClock.sbr .\pc_win32/Debug\vrpn_Local_HIDAPI.sbr .\pc_win32/Debug\vrpn_LUDL.sbr .\pc_win32/Debug\vrpn_Magellan.sbr .\pc_win32/Debug\vrpn_Mouse.sbr .\pc_win32/Debug\vrpn_Mutex.sbr .\pc_win32/Debug\vrpn_NationalInstruments.sbr .\pc_win32/Debug\vrpn_Nidaq.sbr .\pc_win32/Debug\vrpn_nikon_controls.sbr .\pc_win32/Debug\vrpn_Poser.sbr .\pc_win32/Debug\vrpn_Poser_Analog.sbr .\pc_win32/Debug\vrpn_Poser_Tek4662.sbr .\pc_win32/Debug\vrpn_raw_sgibox.sbr .\pc_win32/Debug\vrpn_RedundantTransmission.sbr .\pc_win32/Debug\vrpn_Serial.sbr .\pc_win32/Debug\vrpn_sgibox.sbr .\pc_win32/Debug\vrpn_Shared.sbr .\pc_win32/Debug\vrpn_SharedObject.sbr .\pc_win32/Debug\vrpn_Sound.sbr .\pc_win32/Debug\vrpn_Spaceball.sbr .\pc_win32/Debug\vrpn_Text.sbr .\pc_win32/Debug\vrpn_Tng3.sbr .\pc_win32/Debug\vrpn_Tracker.sbr .\pc_win32/Debug\vrpn_Tracker_3DMouse.sbr .\pc_win32/Debug\vrpn_Tracker_AnalogFly.sbr .\pc_win32/Debug\vrpn_Tracker_ButtonFly.sbr .\pc_win32/Debug\vrpn_Tracker_Crossbow.sbr .\pc_win32/Debug\vrpn_Tracker_DTrack.sbr .\pc_win32/Debug\vrpn_Tracker_Fastrak.sbr .\pc_win32/Debug\vrpn_Tracker_GameTrak.sbr .\pc_win32/Debug\vrpn_Tracker_GPS.sbr .\pc_win32/Debug\vrpn_Tracker_isense.sbr .\pc_win32/Debug\vrpn_Tracker_Isotrak.sbr .\pc_win32/Debug\vrpn_Tracker_JsonNet.sbr .\pc_win32/Debug\vrpn_Tracker_Liberty.sbr .\pc_win32/Debug\vrpn_Tracker_MotionNode.sbr .\pc_win32/Debug\vrpn_Tracker_NDI_Polaris.sbr .\pc_win32/Debug\vrpn_Tracker_NovintFalcon.sbr .\pc_win32/Debug\vrpn_Tracker_PhaseSpace.sbr .\pc_win32/Debug\vrpn_Tracker_RazerHydra.sbr .\pc_win32/Debug\vrpn_Tracker_SpacePoint.sbr .\pc_win32/Debug\vrpn_Tracker_TrivisioColibri.sbr .\pc_win32/Debug\vrpn_Tracker_ViewPoint.sbr .\pc_win32/Debug\vrpn_Tracker_WiimoteHead.sbr .\pc_win32/Debug\vrpn_Tracker_zSight.sbr .\pc_win32/Debug\vrpn_UNC_Joystick.sbr .\pc_win32/Debug\vrpn_VPJoystick.sbr .\pc_win32/Debug\vrpn_Wanda.sbr .\pc_win32/Debug\vrpn_WiiMote.sbr .\pc_win32/Debug\vrpn_XInputGamepad.sbr .\pc_win32/Debug\vrpn_Xkeys.sbr .\pc_win32/Debug\vrpn_Zaber.sbr
+     1>Done Building Project "C:\Users\Admin\Documents\Mestrado_IINELS\Arduino\CAMILE\vrpn\vrpn.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:02:46.68

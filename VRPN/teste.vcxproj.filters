@@ -1,0 +1,1276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="jni_layer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="time_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Button_USB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_3DConnexion.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_3DMicroscribe.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_3Space.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_5DT16.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_ADBox.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Analog.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Analog_5dt.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Analog_5dtUSB.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Analog_Output.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Analog_Radamec_SPI.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Analog_USDigital_A2.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Android.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Atmel.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Auxiliary_Logger.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_BaseClass.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Button.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Button_NI_DIO24.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_CerealBox.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Connection.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Dial.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_DirectXFFJoystick.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_DirectXRumblePad.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_DreamCheeky.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Dyna.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Event.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Event_Analog.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Event_Mouse.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_FileConnection.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_FileController.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Flock.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Flock_Parallel.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_ForceDevice.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_ForceDeviceServer.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Forwarder.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_ForwarderController.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Freespace.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_FunctionGenerator.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_GlobalHapticsOrb.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_HIDAPI_Linux_Hack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_HumanInterface.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Imager.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Imager_Stream_Buffer.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_ImmersionBox.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_inertiamouse.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_JoyFly.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Joylin.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Joywin32.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Keyboard.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_LamportClock.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Local_HIDAPI.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_LUDL.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Magellan.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Mouse.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Mutex.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_NationalInstruments.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Nidaq.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_nikon_controls.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Poser.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Poser_Analog.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Poser_Tek4662.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_raw_sgibox.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_RedundantTransmission.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Serial.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_sgibox.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Shared.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_SharedObject.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Sound.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Spaceball.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Text.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Tng3.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Tracker.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Tracker_3DMouse.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Tracker_AnalogFly.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Tracker_ButtonFly.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Tracker_Crossbow.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Tracker_DTrack.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Tracker_Fastrak.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Tracker_GameTrak.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Tracker_GPS.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Tracker_isense.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Tracker_Isotrak.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Tracker_JsonNet.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Tracker_Liberty.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Tracker_MotionNode.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Tracker_NDI_Polaris.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Tracker_NovintFalcon.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Tracker_PhaseSpace.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Tracker_RazerHydra.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Tracker_SpacePoint.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Tracker_TrivisioColibri.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Tracker_ViewPoint.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Tracker_WiimoteHead.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Tracker_zSight.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_UNC_Joystick.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_VPJoystick.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Wanda.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_WiiMote.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_XInputGamepad.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Xkeys.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Zaber.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="atmellib\vrpn_atmellib_helper.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="atmellib\vrpn_atmellib_iobasic.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="atmellib\vrpn_atmellib_openclose.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="atmellib\vrpn_atmellib_register.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="atmellib\vrpn_atmellib_tester.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\c_interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\forcedevice_test_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\tracker_to_poser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\add_vrpn_cookie.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\bdbox_client.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\checklogfile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\clock_drift_estimator.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\c_interface_example.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\ff_client.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\forwarderClient.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\logfilesenders.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\logfiletypes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\midi_client.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\ohm_client.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\phan_client.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\printcereal.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\printvals.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\run_auxiliary_logger.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\sound_client.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\sphere_client.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\testimager_client.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\testSharedObject.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\test_imager.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\test_mutex.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\test_Zaber.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\text.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\vrpn_LamportClock.t.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\vrpn_ping.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\vrpn_print_devices.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\vrpn_print_messages.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\vrpn_print_performance.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\directx_sound_client\directx_sound_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\haptic\drag-sphere.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\haptic\glvrpn.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\haptic\glwin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\haptic\phantom-field.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\haptic\phantom-plane.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\haptic\phantom-wave.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\haptic\smdvrpn.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_src\haptic\testvrpn.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmake\CheckMacHIDAPI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmake\Findcppcheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gpsnmealib\latLonCoord.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gpsnmealib\nmeaParser.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gpsnmealib\typedCoord.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gpsnmealib\utmCoord.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hid_gui\HIDDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hid_gui\Inspector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hid_gui\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hid_gui\MainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hid_gui\QuickChart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java_vrpn\java_vrpn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java_vrpn\vrpn_AnalogOutputRemote.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java_vrpn\vrpn_AnalogRemote.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java_vrpn\vrpn_AuxiliaryLoggerRemote.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java_vrpn\vrpn_ButtonRemote.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java_vrpn\vrpn_ForceDeviceRemote.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java_vrpn\vrpn_FunctionGeneratorRemote.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java_vrpn\vrpn_PoserRemote.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java_vrpn\vrpn_TextReceiver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java_vrpn\vrpn_TextSender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java_vrpn\vrpn_TrackerRemote.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java_vrpn\vrpn_VRPNDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quat\matrix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quat\quat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quat\vector.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quat\xyzquat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quat\testapps\eul.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quat\testapps\matrix_to_posquat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quat\testapps\qmake.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quat\testapps\qmult.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quat\testapps\qxform.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quat\testapps\timer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quat\testapps\xform_to_components.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\make_vrpn_libs_build.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\nidaqClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\nidaqServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\NIUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\testimager_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\vrpn_HID_device_watcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\buzzForceField.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\client_and_server.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\clock_server.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\constraint.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\daq_server.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\directXFF.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\forcefield.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\forward.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\last_of_sequence.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\plane.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\sample_analog.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\sample_server.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\testSharedObject.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\test_analogfly.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\test_auxiliary_logger.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\test_freespace.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\test_logging.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\test_mutex.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\test_peerMutex.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\test_radamec_spi.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\test_rumble.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\test_vrpn.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\text.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\texture_plane.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\trimesh.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\vrpn.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\vrpn_Generic_server_object.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\vrpn_Phantom.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\wiimote_head_tracker.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\aureal_sound_server\vrpn_Sound_A3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\ausim_sound_server\vrpn_Sound_ASM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\directshow_video_server\directx_camera_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\directshow_video_server\directx_video_imager_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\directx_sound_server\vrpn_Sound_DX9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\ghosteffects\InstantBuzzEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\miles_sound_server\v5.0\Console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\miles_sound_server\v5.0\sound_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\miles_sound_server\v5.0\vrpn_Sound_Miles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\miles_sound_server\v6.0\Console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\miles_sound_server\v6.0\sound_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\miles_sound_server\v6.0\vrpn_Sound_Miles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_src\timecode_generator_server\vrpn_timecode_generator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="submodules\hidapi\hidtest\hidtest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="submodules\hidapi\linux\hid-libusb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="submodules\hidapi\linux\hid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="submodules\hidapi\mac\hid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="submodules\hidapi\testgui\mac_support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="submodules\hidapi\testgui\test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="submodules\hidapi\windows\hid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util\gen_rpc\main_test.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util\printstream\vrpn_streamPrint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_qt_gui_server\vrpn_Qt.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_qt_gui_server\vrpn_qt_appexample\MainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_qt_gui_server\vrpn_qt_appexample\vrpn_Qt_AppExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_qt_gui_server\vrpn_qt_autogui\QAutoGUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_qt_gui_server\vrpn_qt_autogui\QXmlAutoGUIHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_qt_gui_server\vrpn_qt_autogui\vrpn_Qt_AutoGUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="myClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="submodules\hidapi\windows\ddk_build\hidapi.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="UpgradeLog.htm" />
+    <None Include="android_widgets\vrpn_library\doc\allclasses-frame.html" />
+    <None Include="android_widgets\vrpn_library\doc\allclasses-noframe.html" />
+    <None Include="android_widgets\vrpn_library\doc\constant-values.html" />
+    <None Include="android_widgets\vrpn_library\doc\deprecated-list.html" />
+    <None Include="android_widgets\vrpn_library\doc\help-doc.html" />
+    <None Include="android_widgets\vrpn_library\doc\index.html" />
+    <None Include="android_widgets\vrpn_library\doc\overview-tree.html" />
+    <None Include="android_widgets\vrpn_library\doc\eu\ensam\ii\vrpn\package-frame.html" />
+    <None Include="android_widgets\vrpn_library\doc\eu\ensam\ii\vrpn\package-summary.html" />
+    <None Include="android_widgets\vrpn_library\doc\eu\ensam\ii\vrpn\package-tree.html" />
+    <None Include="android_widgets\vrpn_library\doc\eu\ensam\ii\vrpn\package-use.html" />
+    <None Include="android_widgets\vrpn_library\doc\eu\ensam\ii\vrpn\VrpnApplication.html" />
+    <None Include="android_widgets\vrpn_library\doc\eu\ensam\ii\vrpn\VrpnClient.html" />
+    <None Include="android_widgets\vrpn_library\doc\eu\ensam\ii\vrpn\VrpnPressButton.html" />
+    <None Include="android_widgets\vrpn_library\doc\eu\ensam\ii\vrpn\VrpnRadioButton.html" />
+    <None Include="android_widgets\vrpn_library\doc\eu\ensam\ii\vrpn\VrpnSeekBar.html" />
+    <None Include="android_widgets\vrpn_library\doc\eu\ensam\ii\vrpn\VrpnSpinner.html" />
+    <None Include="android_widgets\vrpn_library\doc\eu\ensam\ii\vrpn\VrpnSurface.html" />
+    <None Include="android_widgets\vrpn_library\doc\eu\ensam\ii\vrpn\VrpnToggleButton.html" />
+    <None Include="android_widgets\vrpn_library\doc\eu\ensam\ii\vrpn\class-use\VrpnApplication.html" />
+    <None Include="android_widgets\vrpn_library\doc\eu\ensam\ii\vrpn\class-use\VrpnClient.html" />
+    <None Include="android_widgets\vrpn_library\doc\eu\ensam\ii\vrpn\class-use\VrpnPressButton.html" />
+    <None Include="android_widgets\vrpn_library\doc\eu\ensam\ii\vrpn\class-use\VrpnRadioButton.html" />
+    <None Include="android_widgets\vrpn_library\doc\eu\ensam\ii\vrpn\class-use\VrpnSeekBar.html" />
+    <None Include="android_widgets\vrpn_library\doc\eu\ensam\ii\vrpn\class-use\VrpnSpinner.html" />
+    <None Include="android_widgets\vrpn_library\doc\eu\ensam\ii\vrpn\class-use\VrpnSurface.html" />
+    <None Include="android_widgets\vrpn_library\doc\eu\ensam\ii\vrpn\class-use\VrpnToggleButton.html" />
+    <None Include="android_widgets\vrpn_library\doc\index-files\index-1.html" />
+    <None Include="android_widgets\vrpn_library\doc\index-files\index-2.html" />
+    <None Include="android_widgets\vrpn_library\doc\index-files\index-3.html" />
+    <None Include="android_widgets\vrpn_library\doc\index-files\index-4.html" />
+    <None Include="android_widgets\vrpn_library\doc\index-files\index-5.html" />
+    <None Include="android_widgets\vrpn_library\src\eu\ensam\ii\vrpn\package-info.html" />
+    <None Include="vrpn_android\cpp_doc.htm" />
+    <None Include="vrpn_android\index.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="jni_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_3DConnexion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_3DMicroscribe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_3Space.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_5DT16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_ADBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Analog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Analog_5dt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Analog_5dtUSB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Analog_Output.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Analog_Radamec_SPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Analog_USDigital_A2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Android.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Atmel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Auxiliary_Logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_BaseClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_BufferUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Button_NI_DIO24.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Button_USB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_CerealBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Configure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Connection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Dial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_DirectXFFJoystick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_DirectXRumblePad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_DreamCheeky.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Dyna.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Event_Analog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Event_Mouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_FileConnection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_FileController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Flock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Flock_Parallel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_ForceDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_ForceDeviceServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Forwarder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_ForwarderController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Freespace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_FunctionGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_GlobalHapticsOrb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_HashST.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_HumanInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Imager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Imager_Stream_Buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_ImmersionBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_inertiamouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_JoyFly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Joylin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Joywin32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Keyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_LamportClock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_LUDL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Magellan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_MainloopContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_MainloopObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Mouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Mutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_NationalInstruments.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Nidaq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_nikon_controls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Poser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Poser_Analog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Poser_Tek4662.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_raw_sgibox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_RedundantTransmission.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_SendTextMessageStreamProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Serial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_sgibox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Shared.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_SharedObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Sound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Spaceball.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Tng3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Tracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Tracker_3DMouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Tracker_AnalogFly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Tracker_ButtonFly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Tracker_Crossbow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Tracker_DTrack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Tracker_Fastrak.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Tracker_GameTrak.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Tracker_GPS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Tracker_isense.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Tracker_Isotrak.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Tracker_JsonNet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Tracker_Liberty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Tracker_MotionNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Tracker_NDI_Polaris.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Tracker_NovintFalcon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Tracker_PhaseSpace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Tracker_RazerHydra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Tracker_SpacePoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Tracker_TrivisioColibri.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Tracker_ViewPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Tracker_WiimoteHead.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Tracker_zSight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_UNC_Joystick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_VPJoystick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Wanda.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_WiiMote.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_XInputGamepad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Xkeys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Zaber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="atmellib\vrpn_atmellib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="atmellib\vrpn_atmellib_errno.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="atmellib\vrpn_atmellib_helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="client_src\c_interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="client_src\haptic\glwin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cmake\ghost-fake-stl\iostream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cmake\ghost-fake-stl\list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cmake\ghost-fake-stl\set.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cmake\ghost-fake-stl\vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gpsnmealib\latLonCoord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gpsnmealib\nmeaParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gpsnmealib\typedCoord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gpsnmealib\utmCoord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hid_gui\HIDDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hid_gui\Inspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hid_gui\MainWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hid_gui\QuickChart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java_vrpn\java_vrpn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quat\quat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server_src\buzzForceField.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server_src\constraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server_src\forcefield.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server_src\ghost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server_src\NIUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server_src\plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server_src\texture_plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server_src\trimesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server_src\vrpn_Generic_server_object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server_src\vrpn_Phantom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server_src\aureal_sound_server\vrpn_Sound_A3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server_src\ausim_sound_server\vrpn_Sound_ASM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server_src\directshow_video_server\directx_camera_server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server_src\directx_sound_server\vrpn_Sound_DX9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server_src\ghosteffects\InstantBuzzEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server_src\miles_sound_server\v5.0\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server_src\miles_sound_server\v5.0\vrpn_Sound_Miles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server_src\miles_sound_server\v5.0\Console.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server_src\miles_sound_server\v6.0\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server_src\miles_sound_server\v6.0\vrpn_Sound_Miles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server_src\miles_sound_server\v6.0\Console.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server_src\timecode_generator_server\vrpn_timecode_generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="submodules\hidapi\hidapi\hidapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="submodules\hidapi\testgui\mac_support.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_qt_gui_server\vrpn_Qt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_qt_gui_server\vrpn_qt_appexample\MainWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_qt_gui_server\vrpn_qt_autogui\QAutoGUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_qt_gui_server\vrpn_qt_autogui\QXmlAutoGUIHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="server_src\vrpn.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="server_src\miles_sound_server\v5.0\SoundServerWin32.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="server_src\miles_sound_server\v6.0\SoundServerWin32.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

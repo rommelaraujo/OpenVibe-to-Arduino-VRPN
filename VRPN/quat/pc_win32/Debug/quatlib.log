@@ -1,0 +1,11 @@
+﻿Build started 15/03/2017 16:04:47.
+     1>Project "C:\Users\Admin\Documents\Mestrado_IINELS\Arduino\CAMILE\vrpn\quat\quatlib.vcxproj" on node 3 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(C:\Users\Admin\Documents\Mestrado_IINELS\Arduino\CAMILE\vrpn\quat\.\pc_win32\Debug\quatlib.lib) does not match the Library's OutputFile property value (C:\Users\Admin\Documents\Mestrado_IINELS\Arduino\CAMILE\vrpn\quat\pc_win32\Debug\quat.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(quatlib) does not match the Library's OutputFile property value (quat). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>Lib:
+         quatlib.vcxproj -> C:\Users\Admin\Documents\Mestrado_IINELS\Arduino\CAMILE\vrpn\quat\.\pc_win32\Debug\quatlib.lib
+     1>Done Building Project "C:\Users\Admin\Documents\Mestrado_IINELS\Arduino\CAMILE\vrpn\quat\quatlib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.74
