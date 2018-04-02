@@ -1,0 +1,13 @@
+﻿Build started 15/03/2017 16:07:38.
+     1>Project "C:\Users\Admin\Documents\Mestrado_IINELS\Arduino\CAMILE\vrpn\server_src\test_vrpn.vcxproj" on node 3 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\../pc_win32/server_src/test_vrpn/Debug/test_vrpn.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\../pc_win32/server_src/test_vrpn/Debug/test_vrpn.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\../pc_win32/server_src/test_vrpn/Debug\test_vrpn.lib" /MACHINE:X86 /SAFESEH .\../pc_win32/server_src/test_vrpn/Debug/test_vrpn.obj
+         C:\Users\Admin\Documents\Mestrado_IINELS\Arduino\CAMILE\vrpn\quat\pc_win32\Debug\quat.lib
+         C:\Users\Admin\Documents\Mestrado_IINELS\Arduino\CAMILE\vrpn\Debug\gpsnmealib.lib
+         C:\Users\Admin\Documents\Mestrado_IINELS\Arduino\CAMILE\vrpn\pc_win32\Debug\vrpn.lib
+         test_vrpn.vcxproj -> C:\Users\Admin\Documents\Mestrado_IINELS\Arduino\CAMILE\vrpn\server_src\.\../pc_win32/server_src/test_vrpn/Debug\test_vrpn.exe
+     1>Done Building Project "C:\Users\Admin\Documents\Mestrado_IINELS\Arduino\CAMILE\vrpn\server_src\test_vrpn.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.92

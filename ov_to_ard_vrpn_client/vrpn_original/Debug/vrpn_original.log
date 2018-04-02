@@ -1,13 +1,32 @@
-﻿Build started 15/03/2018 10:45:05.
-     1>Project "C:\Users\Usuário\Google Drive\1. Mestrado em Neuroengenharia IIN-ELS\1. Projeto de mestrado\VRPN_protocol\Arduino\Arduino\CAMILE\SOPHIA_vrpn_client\vrpn_original\vrpn_original.vcxproj" on node 2 (Build target(s)).
+﻿Build started 02/04/2018 15:02:52.
+     1>Project "C:\Users\Usuário\Google Drive\1. Mestrado em Neuroengenharia IIN-ELS\1. Projeto de mestrado\VRPN_protocol\Novo\CAMILE\ov_to_ard_vrpn_client\vrpn_original\vrpn_original.vcxproj" on node 2 (Build target(s)).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (vrpn_client.vcxproj, vrpn_original.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Usuário\Google Drive\1. Mestrado em Neuroengenharia IIN-ELS\1. Projeto de mestrado\VRPN_protocol\Arduino\Arduino\CAMILE\vrpn" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\SOPHIA_vrpn_client.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
-     1>cl : Command line warning D9028: minimal rebuild failure, reverting to normal build
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Usuário\Google Drive\1. Mestrado em Neuroengenharia IIN-ELS\1. Projeto de mestrado\VRPN_protocol\Novo\CAMILE\vrpn" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\ov_to_ard_vrpn_client.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
          stdafx.cpp
-     1>c:\users\usuário\google drive\1. mestrado em neuroengenharia iin-els\1. projeto de mestrado\vrpn_protocol\arduino\arduino\camile\sophia_vrpn_client\vrpn_original\stdafx.cpp : fatal error C1041: cannot open program database 'c:\users\usuário\google drive\1. mestrado em neuroengenharia iin-els\1. projeto de mestrado\vrpn_protocol\arduino\arduino\camile\sophia_vrpn_client\vrpn_original\debug\vc120.idb'; if multiple CL.EXE write to the same .PDB file, please use /FS
-     1>Done Building Project "C:\Users\Usuário\Google Drive\1. Mestrado em Neuroengenharia IIN-ELS\1. Projeto de mestrado\VRPN_protocol\Arduino\Arduino\CAMILE\SOPHIA_vrpn_client\vrpn_original\vrpn_original.vcxproj" (Build target(s)) -- FAILED.
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Usuário\Google Drive\1. Mestrado em Neuroengenharia IIN-ELS\1. Projeto de mestrado\VRPN_protocol\Novo\CAMILE\vrpn" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ov_to_ard_vrpn_client.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt SendToArduino.cpp Serial.cpp myClient.cpp
+         myClient.cpp
+         Serial.cpp
+         SendToArduino.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Usuário\Google Drive\1. Mestrado em Neuroengenharia IIN-ELS\1. Projeto de mestrado\VRPN_protocol\Novo\CAMILE\ov_to_ard_vrpn_client\Debug\ov_to_ard_vrpn_client.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Usuário\Google Drive\1. Mestrado em Neuroengenharia IIN-ELS\1. Projeto de mestrado\VRPN_protocol\Novo\CAMILE\vrpn\pc_win32" /LTCG:STATUS vrpn.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Usuário\Google Drive\1. Mestrado em Neuroengenharia IIN-ELS\1. Projeto de mestrado\VRPN_protocol\Novo\CAMILE\ov_to_ard_vrpn_client\Debug\ov_to_ard_vrpn_client.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Usuário\Google Drive\1. Mestrado em Neuroengenharia IIN-ELS\1. Projeto de mestrado\VRPN_protocol\Novo\CAMILE\ov_to_ard_vrpn_client\Debug\ov_to_ard_vrpn_client.lib" /MACHINE:X86 Debug\SendToArduino.obj
+         Debug\Serial.obj
+         Debug\stdafx.obj
+         Debug\myClient.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     1>SendToArduino.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     1>LINK : warning LNK4067: ambiguous entry point; selected 'mainCRTStartup'
+         LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+     1>vrpn.lib(vrpn_BaseClass.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'vrpn.lib(vrpn_BaseClass.obj)' or at 'C:\Users\Usuário\Google Drive\1. Mestrado em Neuroengenharia IIN-ELS\1. Projeto de mestrado\VRPN_protocol\Novo\CAMILE\ov_to_ard_vrpn_client\Debug\vc120.pdb'; linking object as if no debug info
+     1>vrpn.lib(vrpn_Button.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'vrpn.lib(vrpn_Button.obj)' or at 'C:\Users\Usuário\Google Drive\1. Mestrado em Neuroengenharia IIN-ELS\1. Projeto de mestrado\VRPN_protocol\Novo\CAMILE\ov_to_ard_vrpn_client\Debug\vc120.pdb'; linking object as if no debug info
+     1>vrpn.lib(vrpn_Connection.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'vrpn.lib(vrpn_Connection.obj)' or at 'C:\Users\Usuário\Google Drive\1. Mestrado em Neuroengenharia IIN-ELS\1. Projeto de mestrado\VRPN_protocol\Novo\CAMILE\ov_to_ard_vrpn_client\Debug\vc120.pdb'; linking object as if no debug info
+     1>vrpn.lib(vrpn_FileConnection.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'vrpn.lib(vrpn_FileConnection.obj)' or at 'C:\Users\Usuário\Google Drive\1. Mestrado em Neuroengenharia IIN-ELS\1. Projeto de mestrado\VRPN_protocol\Novo\CAMILE\ov_to_ard_vrpn_client\Debug\vc120.pdb'; linking object as if no debug info
+     1>vrpn.lib(vrpn_Serial.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'vrpn.lib(vrpn_Serial.obj)' or at 'C:\Users\Usuário\Google Drive\1. Mestrado em Neuroengenharia IIN-ELS\1. Projeto de mestrado\VRPN_protocol\Novo\CAMILE\ov_to_ard_vrpn_client\Debug\vc120.pdb'; linking object as if no debug info
+     1>vrpn.lib(vrpn_Shared.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'vrpn.lib(vrpn_Shared.obj)' or at 'C:\Users\Usuário\Google Drive\1. Mestrado em Neuroengenharia IIN-ELS\1. Projeto de mestrado\VRPN_protocol\Novo\CAMILE\ov_to_ard_vrpn_client\Debug\vc120.pdb'; linking object as if no debug info
+         vrpn_original.vcxproj -> C:\Users\Usuário\Google Drive\1. Mestrado em Neuroengenharia IIN-ELS\1. Projeto de mestrado\VRPN_protocol\Novo\CAMILE\ov_to_ard_vrpn_client\Debug\ov_to_ard_vrpn_client.exe
+     1>Done Building Project "C:\Users\Usuário\Google Drive\1. Mestrado em Neuroengenharia IIN-ELS\1. Projeto de mestrado\VRPN_protocol\Novo\CAMILE\ov_to_ard_vrpn_client\vrpn_original\vrpn_original.vcxproj" (Build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:00.64
+Time Elapsed 00:00:05.14
