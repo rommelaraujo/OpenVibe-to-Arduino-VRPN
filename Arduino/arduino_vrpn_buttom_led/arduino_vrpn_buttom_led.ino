@@ -4,7 +4,6 @@ int inByte = 0; //Signal from OV
 int button = 0; //Button from OV
 
 void setup() {
-  // put your setup code here, to run once:
   Serial.begin(9600);
   pinMode(13, OUTPUT);
 }
@@ -18,11 +17,11 @@ void loop() {
        inByte = Serial.read();   
         
        if (inByte == 0){
-        digitalWrite(13,LOW);
+        digitalWrite(13,LOW); //LED off
        }
 
        if (inByte == 1){
-        digitalWrite(13,HIGH);
+        digitalWrite(13,HIGH); //LED on
        }
   }
 }
